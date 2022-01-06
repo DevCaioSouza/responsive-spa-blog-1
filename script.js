@@ -1,9 +1,12 @@
 $(document).ready(function(){
+  //Dropdown menu
     $('.menu-toggle').on('click', function(){
         $('.nav').toggleClass('showing');
         $('.nav ul').toggleClass('showing');
     });
+   // //Dropdown menu
 
+   //Slider jQuery
     $('.post-wrapper').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -40,4 +43,5 @@ $(document).ready(function(){
             // instead of a settings object
           ]
       });
+      // //Slider jQuery
 });
